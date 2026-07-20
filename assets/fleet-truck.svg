@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="190 110 700 420">
+<defs>
+  <linearGradient id="cab" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0" stop-color="#f7f7f5"/>
+    <stop offset=".55" stop-color="#d9dcdd"/>
+    <stop offset="1" stop-color="#aeb5b8"/>
+  </linearGradient>
+  <linearGradient id="dark" x1="0" x2="0" y1="0" y2="1">
+    <stop offset="0" stop-color="#263542"/>
+    <stop offset="1" stop-color="#091018"/>
+  </linearGradient>
+  <linearGradient id="gold" x1="0" x2="1">
+    <stop offset="0" stop-color="#f0d59a"/>
+    <stop offset="1" stop-color="#b57a25"/>
+  </linearGradient>
+  <filter id="shadow"><feGaussianBlur stdDeviation="12"/></filter>
+</defs>
+<ellipse cx="472" cy="504" rx="330" ry="28" fill="#000" opacity=".34" filter="url(#shadow)"/>
+<path d="M260 155h450c36 0 57 22 57 58v207H260z" fill="url(#cab)" stroke="#7f888d" stroke-width="5"/>
+<path d="M716 172h60c27 0 50 16 61 41l30 69v138H716z" fill="url(#cab)" stroke="#7f888d" stroke-width="5"/>
+<path d="M751 190h25c20 0 37 13 44 31l20 48h-89z" fill="#182a38"/>
+<path d="M747 291h95v79h-95z" fill="#e6e8e8"/>
+<path d="M770 305h51v23h-51z" fill="#c8d0d2"/>
+<path d="M768 382h70v22h-70z" fill="#202a31"/>
+<rect x="260" y="420" width="583" height="32" rx="4" fill="#1c252b"/>
+<rect x="294" y="452" width="504" height="19" rx="8" fill="#7f888d"/>
+<path d="M280 173h418v24H280z" fill="#eef0ef"/>
+<path d="M294 236h390v8H294zM294 258h390v5H294z" fill="#c4c8c9"/>
+<path d="M310 338h320c24 0 44 19 44 44v20H310z" fill="#f2f3f2" opacity=".55"/>
+<path d="M358 183h270v220H358z" fill="none" stroke="#c2c7c8" stroke-width="3"/>
+<path d="M720 167h15v251h-15z" fill="#a9b0b3"/>
+<path d="M245 209h20v206h-20z" fill="#202d36"/>
+<path d="M831 407h35v26h-35z" fill="url(#gold)"/>
+<path d="M747 348h98" stroke="#ad772a" stroke-width="9"/>
+<path d="M748 360h98" stroke="#20313e" stroke-width="4"/>
+<rect x="731" y="439" width="118" height="22" rx="6" fill="#1a2228"/>
+<g>
+  <circle cx="355" cy="458" r="55" fill="#090d10"/>
+  <circle cx="355" cy="458" r="30" fill="#647079"/>
+  <circle cx="355" cy="458" r="13" fill="#b8bec1"/>
+  <circle cx="687" cy="458" r="55" fill="#090d10"/>
+  <circle cx="687" cy="458" r="30" fill="#647079"/>
+  <circle cx="687" cy="458" r="13" fill="#b8bec1"/>
+  <circle cx="795" cy="458" r="55" fill="#090d10"/>
+  <circle cx="795" cy="458" r="30" fill="#647079"/>
+  <circle cx="795" cy="458" r="13" fill="#b8bec1"/>
+</g>
+<path d="M746 215v55h85l-17-39c-6-12-18-20-32-20h-36z" fill="url(#dark)"/>
+<path d="M751 275h87" stroke="#c49345" stroke-width="5"/>
+<path d="M743 164l-9-30h34l12 31" fill="#8f989d"/>
+<path d="M807 164l8-39h18l-2 54" fill="#8f989d"/>
+<text x="488" y="325" text-anchor="middle" fill="#14212a" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" letter-spacing="2">GOLD MILES</text>
+<text x="491" y="353" text-anchor="middle" fill="#b7822e" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="7">USA LLC</text>
+<path d="M445 286c16-25 33-37 57-37 13 0 24 4 33 10l-17 16c-5-3-11-5-18-5-15 0-26 8-34 19h43l-16 16h-57z" fill="none" stroke="url(#gold)" stroke-width="5"/>
+</svg>

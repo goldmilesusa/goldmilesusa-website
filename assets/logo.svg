@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 150" role="img" aria-labelledby="title">
+<title>Gold Miles USA</title>
+<defs>
+  <linearGradient id="g" x1="0" x2="1">
+    <stop offset="0" stop-color="#f0d59a"/>
+    <stop offset="1" stop-color="#c6943c"/>
+  </linearGradient>
+</defs>
+<g fill="none" stroke="url(#g)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M42 96c24-39 50-58 86-58 19 0 36 6 49 16l-25 25c-8-6-18-9-29-9-23 0-40 12-51 29h63l-24 25H32z"/>
+  <path d="M148 122l43-83h48l-20 39h66l20-39h47l-43 83h-47l15-29h-66l-15 29z"/>
+</g>
+<text x="374" y="83" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700" letter-spacing="2">GOLD MILES</text>
+<text x="378" y="121" fill="#d5ad62" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" letter-spacing="11">USA LLC</text>
+</svg>
