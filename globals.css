@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #050505;
+  color: #f7f7f7;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #d7a12c;
+  color: #050505;
+}
+
+.container-shell {
+  width: min(1440px, calc(100% - 40px));
+  margin-inline: auto;
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #f0c65a 0%, #d7a12c 52%, #b78317 100%);
+}
+
+.hero-overlay {
+  background:
+    linear-gradient(90deg, rgba(0,0,0,.95) 0%, rgba(0,0,0,.82) 35%, rgba(0,0,0,.20) 73%, rgba(0,0,0,.05) 100%);
+}
+
+@media (max-width: 900px) {
+  .hero-overlay {
+    background:
+      linear-gradient(90deg, rgba(0,0,0,.94) 0%, rgba(0,0,0,.72) 60%, rgba(0,0,0,.35) 100%);
+  }
+}
